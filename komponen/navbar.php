@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <button id="logoutButton" class="btn btn-link nav-link">
+                    <button id="logoutButton" class="btn btn-link nav-link logout-button">
                         <i class="fas fa-sign-out-alt"></i> Logout
                     </button>
                 </li>
@@ -21,3 +21,9 @@
 
 <!-- Tambahkan Font Awesome ke dalam <head> di file HTML utama Anda -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<style>
+    .logout-button:hover {
+        color: red; /* Warna merah saat dihover */
+    }
+</style>
