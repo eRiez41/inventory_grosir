@@ -1,0 +1,36 @@
+.sidebar {
+    position: fixed;
+    top: 56px; /* Sesuaikan dengan tinggi navbar */
+    left: 0;
+    height: calc(100% - 56px); /* Sesuaikan dengan tinggi navbar */
+    width: 250px;
+    background-color: #202428;
+}
+.sidebar .list-group-item {
+    border: none;
+    border-radius: 0;
+    background-color: #202428;
+}
+.sidebar .list-group-item a {
+    display: block;
+    position: relative; /* Tambahkan posisi relatif */
+}
+.sidebar .list-group-item a:hover {
+    background-color:rgb(88, 88, 88);
+}
+.submenu {
+    display: none;
+}
+.submenu.show {
+    display: block;
+}
+.symbol {
+    font-size: 2.0em; /* Ukuran font untuk simbol */
+    position: absolute; /* Posisi absolut */
+    top: 50%; /* Pusatkan vertikal */
+    right: 10px; /* Jarak dari kanan */
+    transform: translateY(-30%); /* Pusatkan vertikal */
+}
+.sidebar .list-group-item a i {
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+}
